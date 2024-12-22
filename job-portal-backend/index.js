@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 let jobs = [];
 let applications = [];
 
-const apiKey = "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";
+const apiKey = "my_api_key";
 
 // Chatbot endpoint
 app.post("/chat", async (req, res) => {
